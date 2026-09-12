@@ -1,158 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#b5122b">
-  <meta name="description" content="PEYE TOURS — experiencias deportivas, viajes y Matchday.">
-  <title>PEYE TOURS | Guadalajara se vive</title>
-  <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="css/styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#c8102e">
+<meta name="description" content="PEYE TOURS — viajes, fútbol y experiencias que se viven de verdad.">
+<title>PEYE TOURS | Guadalajara se vive</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="topbar"><div class="container topbar-inner"><span>PEYE TOURS</span><span>Guadalajara se vive.</span></div></div>
-  <header class="header" id="inicio">
-    <div class="container nav">
-      <a class="brand" href="#inicio" aria-label="PEYE Tours inicio"><span class="brand-mark">P</span><span>PEYE <b>TOURS</b></span></a>
-      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
-      <nav id="mainNav">
-        <a href="#experiencias">Experiencias</a>
-        <a href="#proximos">Partidos</a><a href="#matchday">Matchday</a>
-        <a href="#rutas">Rutas</a>
-        <a href="#stories">Stories</a>
-        <a href="#galeria">Galería</a>
-        <a class="nav-cta" href="https://wa.me/525577256481?text=Hola%20PEYE%20TOURS%2C%20quiero%20informaci%C3%B3n%20sobre%20un%20tour." target="_blank" rel="noopener">Reservar</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <p class="eyebrow">PEYE MATCHDAY · GUADALAJARA</p>
-        <h1>GUADALAJARA.<br><em>TU HISTORIA</em><br>EMPIEZA AQUÍ.</h1>
-        <p class="hero-copy">Viajes, fútbol y experiencias que se viven de verdad. Tú eliges el partido. Nosotros armamos la experiencia.</p>
-        <div class="hero-actions"><a class="btn btn-primary" href="#matchday">VER EXPERIENCIAS</a><a class="btn btn-outline" href="#rutas">EXPLORAR RUTAS</a></div>
-      </div>
-      <div class="hero-scroll">DESLIZA <span>↓</span></div>
-    </section>
-
-    <section class="ticker"><div class="ticker-track"><span>PEYE TOURS</span><b>✦</b><span>FÚTBOL</span><b>✦</b><span>GUADALAJARA</span><b>✦</b><span>EXPERIENCIAS</span><b>✦</b><span>PEYE TOURS</span><b>✦</b><span>MATCHDAY</span><b>✦</b></div></section>
-
-
-    <section class="akron-section" id="proximos">
-      <div class="container">
-        <div class="section-head">
-          <div><p class="eyebrow red">ESTADIO AKRON · APERTURA 2026</p><h2>PRÓXIMOS <span>PARTIDOS</span></h2></div>
-          <p class="section-note">Elige el partido y conviértelo en una experiencia PEYE: carretera, Guadalajara, estadio y el sabor de Jalisco.</p>
-        </div>
-
-        <div class="akron-showcase">
-          <div class="akron-copy">
-            <span class="live-pill"><i></i> PRÓXIMO EN AKRON</span>
-            <p class="akron-jornada">JORNADA 8 · APERTURA 2026</p>
-            <h3>CHIVAS <b>VS</b> PUMAS</h3>
-            <div class="akron-meta"><strong>13 SEP</strong><span>DOMINGO · 19:07</span><span>ESTADIO AKRON</span></div>
-            <div class="countdown" id="countdown"><div><strong>00</strong><span>DÍAS</span></div><div><strong>00</strong><span>HRS</span></div><div><strong>00</strong><span>MIN</span></div><div><strong>00</strong><span>SEG</span></div></div>
-            <a class="btn btn-primary" href="https://wa.me/525577256481?text=Hola%20PEYE%20TOURS%2C%20quiero%20vivir%20el%20Chivas%20vs%20Pumas%20en%20el%20Akron." target="_blank" rel="noopener">QUIERO VIVIRLO</a>
-          </div>
-
-          <div class="match-3d-wrap" id="match3d" tabindex="0" aria-label="Tarjeta 3D Chivas vs Pumas. Haz clic para girar">
-            <div class="match-3d">
-              <div class="match-face match-front">
-                <div class="stadium-glow"></div>
-                <span class="card-kicker">PEYE MATCHDAY</span>
-                <div class="team-badge home">CHIVAS</div>
-                <div class="versus">VS</div>
-                <div class="team-badge away">PUMAS</div>
-                <div class="card-bottom"><span>13 SEP 2026</span><span>AKRON</span></div>
-              </div>
-              <div class="match-face match-back">
-                <div class="agave-art"><span></span><span></span><span></span><span></span><span></span></div>
-                <div class="tequila-bottle"><div class="bottle-cap"></div><div class="bottle-neck"></div><div class="bottle-body"><small>JALISCO</small><b>TEQUILA</b><em>PEYE</em></div></div>
-                <div class="back-copy"><span>GUADALAJARA</span><strong>FÚTBOL +<br>SABOR +<br>HISTORIA</strong><small>TOCA PARA VOLVER</small></div>
-              </div>
-            </div>
-            <span class="flip-hint">↻ GIRA LA EXPERIENCIA</span>
-          </div>
-        </div>
-
-        <div class="fixture-grid">
-          <article class="fixture-card active-fixture"><span>J8 · 13 SEP</span><strong>CHIVAS <i>VS</i> PUMAS</strong><small>19:07 · AKRON</small><button data-fixture="pumas">VER EXPERIENCIA</button></article>
-          <article class="fixture-card"><span>J10 · 26 SEP</span><strong>CHIVAS <i>VS</i> QUERÉTARO</strong><small>17:00 · AKRON</small><button data-fixture="queretaro">VER EXPERIENCIA</button></article>
-          <article class="fixture-card"><span>J12 · 17 OCT</span><strong>CHIVAS <i>VS</i> TIGRES</strong><small>17:00 · AKRON</small><button data-fixture="tigres">VER EXPERIENCIA</button></article>
-          <article class="fixture-card"><span>J13 · 20 OCT</span><strong>CHIVAS <i>VS</i> NECAXA</strong><small>18:07 · AKRON</small><button data-fixture="necaxa">VER EXPERIENCIA</button></article>
-          <article class="fixture-card"><span>J15 · 31 OCT</span><strong>CHIVAS <i>VS</i> ATLANTE</strong><small>19:00 · AKRON</small><button data-fixture="atlante">VER EXPERIENCIA</button></article>
-          <article class="fixture-card"><span>J17 · 22 NOV</span><strong>CHIVAS <i>VS</i> CRUZ AZUL</strong><small>17:00 · AKRON</small><button data-fixture="cruzazul">VER EXPERIENCIA</button></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="experiencias">
-      <div class="container">
-        <div class="section-head"><div><p class="eyebrow red">VIVE MÁS QUE UN PARTIDO</p><h2>PRÓXIMAS <span>EXPERIENCIAS</span></h2></div><p class="section-note">Experiencias pensadas para disfrutar el destino, el ambiente y cada minuto del viaje.</p></div>
-        <div class="experience-grid">
-          <article class="experience-card featured"><div class="card-image match-image"><img src="assets/chivas-toluca.jpeg" alt="Tour Chivas vs Toluca"></div><div class="card-body"><span class="tag">MATCHDAY</span><h3>CHIVAS VS TOLUCA</h3><p>Un viaje completo a Guadalajara con partido, recorrido y experiencias locales.</p><button class="text-btn" data-open="tourModal">VER TOUR →</button></div></article>
-          <article class="experience-card dark"><div class="number">02</div><span class="tag">DESTINO</span><h3>GUADALAJARA<br>DE CERCA</h3><p>Descubre los lugares que hacen especial a la ciudad y vive Jalisco a tu ritmo.</p><a class="text-btn" href="#rutas">CONOCER RUTA →</a></article>
-          <article class="experience-card red-card"><div class="number">03</div><span class="tag">EXPERIENCIA</span><h3>JALISCO<br>SE DISFRUTA</h3><p>Gastronomía, cultura, tradición y esos lugares que no aparecen en cualquier tour.</p><a class="text-btn" href="#rutas">DESCUBRIR →</a></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="matchday" id="matchday">
-      <div class="container">
-        <div class="section-head light"><div><p class="eyebrow">PEYE MATCHDAY</p><h2>EL PARTIDO ES<br><span>SOLO EL COMIENZO.</span></h2></div><div class="match-controls"><button class="active" data-filter="all">TODOS</button><button data-filter="chivas">CHIVAS</button><button data-filter="viajes">VIAJES</button></div></div>
-        <div class="match-list">
-          <article class="match-card" data-type="chivas">
-            <div class="match-date"><small>PRÓXIMA EXPERIENCIA</small><strong>CHIVAS<br>VS<br>TOLUCA</strong></div>
-            <div class="match-info"><span>GUADALAJARA · MATCHDAY</span><h3>TOUR ESTADIO + MUSEO</h3><p>Boleto del partido · desayuno en Zapopan · comida/cena de cortesía · Paraíso Azul · Cantaritos El Güero.</p></div>
-            <button class="round-btn" data-open="tourModal">+</button>
-          </article>
-          <article class="match-card" data-type="viajes">
-            <div class="match-date"><small>RUTA PEYE</small><strong>GDL<br>TODO<br>EL DÍA</strong></div>
-            <div class="match-info"><span>JALISCO · EXPERIENCIA</span><h3>GUADALAJARA + SABORES</h3><p>Una ruta diseñada para combinar ciudad, gastronomía y los puntos que tienes que conocer.</p></div>
-            <a class="round-btn" href="#rutas">→</a>
-          </article>
-          <article class="match-card" data-type="viajes">
-            <div class="match-date"><small>PRÓXIMAMENTE</small><strong>PEYE<br>ESCAPES</strong></div>
-            <div class="match-info"><span>EXPERIENCIAS · MÉXICO</span><h3>NUEVOS DESTINOS</h3><p>Estamos preparando nuevas salidas y experiencias. Pregunta por disponibilidad.</p></div>
-            <a class="round-btn" href="https://wa.me/525577256481?text=Hola%20PEYE%20TOURS%2C%20quiero%20conocer%20los%20pr%C3%B3ximos%20destinos." target="_blank" rel="noopener">→</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="stats"><div class="container stats-grid"><div><strong>03</strong><span>salidas principales</span></div><div><strong>01</strong><span>experiencia memorable</span></div><div><strong>∞</strong><span>historias por vivir</span></div><div><strong>24/7</strong><span>atención por WhatsApp</span></div></div></section>
-
-    <section class="section routes" id="rutas">
-      <div class="container">
-        <div class="section-head"><div><p class="eyebrow red">ELIGE TU PUNTO DE PARTIDA</p><h2>NUESTRAS <span>RUTAS</span></h2></div><p class="section-note">Salidas pensadas para facilitar tu viaje desde distintos puntos.</p></div>
-        <div class="route-grid">
-          <article class="route"><span>01</span><h3>CDMX</h3><p>Salida desde Ciudad de México.</p><a href="https://wa.me/525577256481?text=Hola%20PEYE%20TOURS%2C%20me%20interesa%20la%20salida%20desde%20CDMX." target="_blank" rel="noopener">CONSULTAR →</a></article>
-          <article class="route active"><span>02</span><h3>EDO. MÉXICO</h3><p>Opciones de salida desde el Estado de México.</p><a href="https://wa.me/525577256481?text=Hola%20PEYE%20TOURS%2C%20me%20interesa%20la%20salida%20desde%20Estado%20de%20M%C3%A9xico." target="_blank" rel="noopener">CONSULTAR →</a></article>
-          <article class="route"><span>03</span><h3>QUERÉTARO</h3><p>Pregunta por la salida disponible en tu fecha.</p><a href="https://wa.me/525577256481?text=Hola%20PEYE%20TOURS%2C%20me%20interesa%20la%20salida%20desde%20Quer%C3%A9taro." target="_blank" rel="noopener">CONSULTAR →</a></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="stories" id="stories">
-      <div class="container"><div class="section-head light"><div><p class="eyebrow">PEYE STORIES</p><h2>NO SOLO LO<br><span>CUENTES. VÍVELO.</span></h2></div></div>
-        <div class="story-grid"><article class="story big"><div><span>01 · MATCHDAY</span><h3>DEL CAMINO AL ESTADIO: ASÍ SE VIVE UN PEYE TOUR</h3><button data-story="match">LEER HISTORIA →</button></div></article><article class="story story-two"><div><span>02 · GUADALAJARA</span><h3>5 MOMENTOS QUE TIENES QUE VIVIR</h3><button data-story="gdl">LEER HISTORIA →</button></div></article><article class="story story-three"><div><span>03 · JALISCO</span><h3>COMER, CANTAR Y VIAJAR</h3><button data-story="jalisco">LEER HISTORIA →</button></div></article></div>
-      </div>
-    </section>
-
-    <section class="gallery section" id="galeria"><div class="container"><div class="section-head"><div><p class="eyebrow red">PEYE GALLERY</p><h2>LA EXPERIENCIA<br><span>EN IMÁGENES.</span></h2></div></div><div class="gallery-grid"><div class="gallery-item tall"><img src="assets/chivas-toluca.jpeg" alt="Experiencia PEYE Tours"></div><div class="gallery-item quote"><strong>VIAJA.</strong><span>GRITA.</span><em>VIVE.</em></div><div class="gallery-item dark-tile"><span>PEYE<br>TOURS</span><small>GUADALAJARA</small></div><div class="gallery-item flyer"><img src="assets/chivas-toluca.jpeg" alt="Flyer Chivas vs Toluca"></div></div></div></section>
-
-    <section class="cta"><div class="container cta-inner"><p class="eyebrow">¿LISTO PARA IR?</p><h2>HAZ QUE EL<br>PRÓXIMO PARTIDO<br><em>SEA UNA HISTORIA.</em></h2><a class="btn btn-white" href="https://wa.me/525577256481?text=Hola%20PEYE%20TOURS%2C%20quiero%20reservar%20una%20experiencia." target="_blank" rel="noopener">HABLAR POR WHATSAPP</a></div></section>
-  </main>
-
-  <footer class="footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="#inicio"><span class="brand-mark">P</span><span>PEYE <b>TOURS</b></span></a><p>Guadalajara se vive.</p></div><div><h4>NAVEGA</h4><a href="#experiencias">Experiencias</a><a href="#proximos">Partidos</a><a href="#matchday">Matchday</a><a href="#rutas">Rutas</a><a href="#stories">Stories</a></div><div><h4>CONTACTO</h4><a href="https://wa.me/525577256481" target="_blank" rel="noopener">55 7725 6481</a><a href="https://wa.me/525577256481" target="_blank" rel="noopener">WhatsApp</a></div><div><h4>PEYE</h4><p>Viajes · Fútbol · Experiencias</p><p>© <span id="year"></span> PEYE TOURS</p></div></div></footer>
-
-  <div class="modal" id="fixtureModal" aria-hidden="true"><div class="modal-box fixture-modal-box"><button class="modal-close" data-close-fixture>×</button><p class="eyebrow red">PEYE AKRON EXPERIENCE</p><h2 id="fixtureTitle">CHIVAS VS PUMAS</h2><p id="fixtureText">Arma tu viaje desde CDMX, Estado de México o Querétaro y vive el partido en el Estadio AKRON.</p><div class="included"><div>⚽ PARTIDO</div><div>🏟️ ESTADIO AKRON</div><div>🌵 JALISCO</div><div>🚍 VIAJE PEYE</div></div><a id="fixtureWhatsapp" class="btn btn-primary full" href="#" target="_blank" rel="noopener">COTIZAR POR WHATSAPP</a></div></div>
-
-  <div class="modal" id="tourModal" aria-hidden="true"><div class="modal-box"><button class="modal-close" data-close>×</button><p class="eyebrow red">PEYE MATCHDAY</p><h2>CHIVAS VS TOLUCA</h2><p>La experiencia incluye los elementos indicados en el tour: boleto del partido, desayuno en Zapopan, tour Estadio & Museo Chivas, Paraíso Azul, Cantaritos El Güero y comida/cena de cortesía.</p><div class="included"><span>✓ Boleto del partido</span><span>✓ Estadio & Museo</span><span>✓ Desayuno</span><span>✓ Paraíso Azul</span><span>✓ Cantaritos</span><span>✓ Cortesía</span></div><a class="btn btn-primary full" href="https://wa.me/525577256481?text=Hola%20PEYE%20TOURS%2C%20quiero%20informaci%C3%B3n%20del%20tour%20Chivas%20vs%20Toluca." target="_blank" rel="noopener">CONSULTAR DISPONIBILIDAD</a></div></div>
-  <div class="toast" id="toast"></div>
-  <script src="js/app.js"></script>
+<div class="loader" id="loader"><div class="loader-mark">P</div><div class="loader-line"><span></span></div><small>PREPARANDO LA EXPERIENCIA</small></div>
+<header class="site-header">
+  <div class="topline"><span>PEYE TOURS</span><span>GUADALAJARA SE VIVE.</span></div>
+  <nav class="nav">
+    <a class="brand" href="#inicio"><b>P</b><span>PEYE<br><em>TOURS</em></span></a>
+    <div class="navlinks"><a href="#experiencias">Experiencias</a><a href="#matchday">Matchday</a><a href="#rutas">Rutas</a><a href="#stories">Stories</a><a href="#galeria">Galería</a></div>
+    <a class="nav-cta" href="https://wa.me/525577256481?text=Hola%20PEYE%20TOURS,%20quiero%20informaci%C3%B3n%20de%20una%20experiencia." target="_blank">Reservar <span>↗</span></a>
+    <button class="menu" id="menu" aria-label="Abrir menú"><i></i><i></i></button>
+  </nav>
+</header>
+<main>
+<section class="hero" id="inicio">
+  <canvas id="scene"></canvas>
+  <div class="hero-grid"></div>
+  <div class="hero-copy reveal">
+    <p class="eyebrow">PEYE IMMERSIVE MATCHDAY · JALISCO</p>
+    <h1>GUADALAJARA.<br><span>TU HISTORIA</span><br>EMPIEZA AQUÍ.</h1>
+    <p class="lead">No vendemos un traslado. Diseñamos el viaje completo: carretera, Jalisco, estadio, fútbol y momentos que se quedan.</p>
+    <div class="hero-actions"><a class="btn primary" href="#matchday">Entrar al Matchday <b>↓</b></a><a class="btn ghost" href="#rutas">Explorar rutas</a></div>
+  </div>
+  <div class="hero-side">SCROLL PARA VIAJAR <span>↓</span></div>
+  <div class="hero-stamp"><strong>AKRON</strong><small>ESTADIO · GUADALAJARA</small></div>
+</section>
+<section class="ticker"><div>PEYE TOURS <b>✦</b> FÚTBOL <b>✦</b> GUADALAJARA <b>✦</b> EXPERIENCIAS <b>✦</b> JALISCO <b>✦</b> PEYE TOURS <b>✦</b> MATCHDAY <b>✦</b></div></section>
+<section class="intro section" id="experiencias">
+  <div class="section-kicker">VIVE MÁS QUE UN PARTIDO</div>
+  <div class="split-heading"><h2>PRÓXIMAS<br><span>EXPERIENCIAS.</span></h2><p>Viajes pensados para disfrutar el destino, el ambiente y cada minuto del viaje. Elige el partido. Nosotros armamos la experiencia.</p></div>
+  <div class="experience-feature reveal">
+    <div class="feature-media"><img src="assets/chivas-toluca.jpeg" alt="Experiencia Chivas vs Toluca"><div class="media-tag">PEYE / 01</div></div>
+    <div class="feature-info"><p class="eyebrow">MATCHDAY · GUADALAJARA</p><h3>CHIVAS<br><span>VS TOLUCA</span></h3><p>Un viaje completo a Guadalajara con partido, desayuno, recorrido y experiencias locales.</p><button class="text-btn" data-match="toluca">Ver experiencia <b>↗</b></button></div>
+  </div>
+</section>
+<section class="match-section" id="matchday">
+  <div class="match-bg"></div>
+  <div class="match-header section reveal"><div><p class="eyebrow">PEYE MATCHDAY · ESTADIO AKRON</p><h2>EL PARTIDO ES<br><span>SOLO EL COMIENZO.</span></h2></div><div class="match-note">Haz clic en un partido.<br>La experiencia se abre.</div></div>
+  <div class="match-stage">
+    <div class="match-orbit"><div class="orbit-ring r1"></div><div class="orbit-ring r2"></div><div class="orbit-ring r3"></div></div>
+    <div class="match-cards" id="matchCards"></div>
+  </div>
+  <div class="match-foot"><span>APERTURA 2026 · LOCAL</span><span>AKRON / GUADALAJARA</span><span>PEYE TOURS ↗</span></div>
+</section>
+<section class="journey section">
+  <div class="journey-intro"><p class="eyebrow">SCROLL STORY · CDMX → JALISCO</p><h2>NO ES DESTINO.<br><span>ES EL CAMINO.</span></h2></div>
+  <div class="journey-track">
+    <article class="journey-card active"><small>01 · SALIDA</small><strong>CDMX</strong><p>Sube al viaje. Nosotros nos encargamos del resto.</p><div class="journey-icon">🚌</div></article>
+    <article class="journey-card"><small>02 · RUTA</small><strong>CARRETERA</strong><p>Horas de música, amigos y la emoción de acercarnos.</p><div class="journey-icon">→</div></article>
+    <article class="journey-card"><small>03 · JALISCO</small><strong>AGAVE</strong><p>Tradición, paisaje y el sabor que hace distinto el viaje.</p><div class="journey-icon">✦</div></article>
+    <article class="journey-card"><small>04 · DESTINO</small><strong>AKRON</strong><p>Luces, estadio, fútbol. Aquí empieza la historia.</p><div class="journey-icon">🏟</div></article>
+  </div>
+</section>
+<section class="immersive-tequila">
+  <div class="tequila-copy"><p class="eyebrow">JALISCO · EXPERIENCIA</p><h2>DE AGAVE<br><span>A ADRENALINA.</span></h2><p>Un lenguaje visual inspirado en Jalisco: agave, tierra, noche y fútbol. Mueve el cursor sobre la escena.</p></div>
+  <div class="tequila-scene" id="tequilaScene"><div class="agave a1"></div><div class="agave a2"></div><div class="agave a3"></div><div class="bottle"><div class="bottle-neck"></div><div class="bottle-body"><b>PEYE</b><small>JALISCO</small></div></div><div class="tequila-glow"></div></div>
+</section>
+<section class="routes section" id="rutas"><div class="section-kicker">ELIGE TU PUNTO DE PARTIDA</div><div class="split-heading"><h2>NUESTRAS <span>RUTAS.</span></h2><p>Salidas pensadas para facilitar tu viaje desde distintos puntos.</p></div><div class="route-grid"><a href="#reservar" class="route"><small>01</small><strong>CDMX</strong><p>Ciudad de México</p><span>CONSULTAR →</span></a><a href="#reservar" class="route"><small>02</small><strong>EDO. MÉXICO</strong><p>Opciones de salida disponibles.</p><span>CONSULTAR →</span></a><a href="#reservar" class="route"><small>03</small><strong>QUERÉTARO</strong><p>Pregunta por la salida en tu fecha.</p><span>CONSULTAR →</span></a></div></section>
+<section class="stories section" id="stories"><div class="section-kicker">PEYE STORIES</div><h2>NO SOLO LO<br><span>CUENTES. VÍVELO.</span></h2><div class="story-list"><article><small>01 · MATCHDAY</small><h3>DEL CAMINO AL ESTADIO: ASÍ SE VIVE UN PEYE TOUR</h3><a href="#galeria">LEER HISTORIA →</a></article><article><small>02 · GUADALAJARA</small><h3>5 MOMENTOS QUE TIENES QUE VIVIR</h3><a href="#galeria">LEER HISTORIA →</a></article><article><small>03 · JALISCO</small><h3>COMER, CANTAR Y VIAJAR</h3><a href="#galeria">LEER HISTORIA →</a></article></div></section>
+<section class="gallery section" id="galeria"><div class="section-kicker">PEYE GALLERY</div><h2>LA EXPERIENCIA<br><span>EN IMÁGENES.</span></h2><div class="gallery-grid"><img src="assets/chivas-toluca.jpeg" alt="Chivas vs Toluca"><div class="gallery-word">VIAJA.<br><span>GRITA.</span><br>VIVE.</div><img src="assets/chivas-toluca.jpeg" alt="PEYE Matchday detalle"></div></section>
+<section class="final-cta" id="reservar"><div class="final-noise"></div><p class="eyebrow">¿LISTO PARA IR?</p><h2>HAZ QUE EL PRÓXIMO<br>PARTIDO SEA <span>UNA HISTORIA.</span></h2><a class="btn primary" href="https://wa.me/525577256481?text=Hola%20PEYE%20TOURS,%20quiero%20reservar%20una%20experiencia%20al%20Estadio%20AKRON." target="_blank">Hablar por WhatsApp ↗</a></section>
+</main>
+<footer><div class="footer-brand"><b>P</b> PEYE TOURS<small>Guadalajara se vive.</small></div><div><small>NAVEGA</small><a href="#experiencias">Experiencias</a><a href="#matchday">Matchday</a><a href="#rutas">Rutas</a></div><div><small>CONTACTO</small><span>55 7725 6481</span><a href="https://wa.me/525577256481" target="_blank">WhatsApp ↗</a></div><div><small>PEYE</small><span>Viajes · Fútbol · Experiencias</span><span>© 2026 PEYE TOURS</span></div></footer>
+<div class="modal" id="modal"><div class="modal-panel"><button class="modal-close" id="modalClose">×</button><div class="modal-visual" id="modalVisual"></div><div class="modal-content"><p class="eyebrow" id="modalKicker"></p><h2 id="modalTitle"></h2><div class="modal-meta" id="modalMeta"></div><p id="modalDesc"></p><div class="perks"><span>✓ Transporte</span><span>✓ Boleto</span><span>✓ Desayuno</span><span>✓ Experiencia local</span></div><a class="btn primary" id="modalCta" target="_blank">QUIERO IR ↗</a></div></div></div>
+<script type="module" src="js/app.js"></script>
 </body>
 </html>
