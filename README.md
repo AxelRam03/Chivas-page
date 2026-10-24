@@ -1,21 +1,30 @@
-# PEYE TOURS
+# PEYE TOURS — Experiencias de fútbol y viajes
 
-Sitio web estático para PEYE TOURS, con experiencia visual inspirada en portales deportivos: Matchday, experiencias, rutas, stories y galería.
+Sitio web estático para presentar experiencias de viaje vinculadas al fútbol, con una experiencia visual inspirada en los días de partido y la afición de Guadalajara.
 
-## Ejecutar
-Abre `index.html` en VS Code con Live Server, o súbelo a GitHub Pages.
-
-## Publicar en GitHub
-```bash
-git add .
-git commit -m "Rediseño PEYE TOURS portal deportivo"
-git push origin main
-```
+## Tecnologías
+- HTML5
+- CSS3
+- JavaScript
+- Web App Manifest y Service Worker
 
 ## Estructura
-- `index.html`
-- `css/styles.css`
-- `js/app.js`
-- `assets/chivas-toluca.jpeg`
-- `manifest.json`
-- `service-worker.js`
+- `index.html`: página principal.
+- `css/`: estilos y recursos visuales.
+- `js/`: comportamiento de la interfaz.
+- `assets/`: imágenes y recursos estáticos.
+- `manifest.json`: metadatos PWA.
+- `service-worker.js`: comportamiento de caché/offline.
+
+## Ejecutar localmente
+Abre el proyecto con VS Code y una extensión de servidor estático como Live Server. También puede publicarse en GitHub Pages si las rutas de los recursos son compatibles con el nombre del repositorio.
+
+## Lista previa a publicación
+- [ ] Verificar rutas de CSS, JavaScript e imágenes.
+- [ ] Probar navegación, enlaces y diseño adaptable.
+- [ ] Confirmar precios, fechas, transporte y condiciones antes de anunciar experiencias.
+- [ ] Revisar derechos de uso de marcas, escudos, fotografías y otros recursos.
+- [ ] Comprobar instalación y actualización de la PWA.
+
+## Nota
+El sitio es un proyecto independiente; no representa afiliación oficial con equipos, ligas o estadios salvo que exista autorización expresa.
